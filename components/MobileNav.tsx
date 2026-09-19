@@ -1,0 +1,1 @@
+import Link from "next/link"; export function MobileNav(){return <nav className="mobile-nav fixed bottom-0 left-0 right-0 z-40 flex justify-around border-t border-[#d9e4dc] bg-[var(--surface)] p-3 text-xs font-bold shadow-lg"><Link href="/">Home</Link><Link href="/practice">Practice</Link><Link href="/pricing">Plans</Link><Link href="/progress">Progress</Link></nav>}

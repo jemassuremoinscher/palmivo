@@ -1,0 +1,1 @@
+"use client"; import {motion} from "framer-motion"; export function ProgressAnimation({label="Lesson complete"}:{label?:string}){return <motion.div initial={{opacity:0,scale:.95}} animate={{opacity:1,scale:1}} className="rounded-2xl bg-[#d9f7e6] p-4 font-black text-[var(--primary)]">✓ {label}</motion.div>}

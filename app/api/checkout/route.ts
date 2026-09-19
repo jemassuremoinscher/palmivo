@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server"; export async function GET(){return NextResponse.json({status:"not_configured",message:"Configure Stripe environment variables before enabling checkout."},{status:501})}
