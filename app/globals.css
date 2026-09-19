@@ -1,0 +1,2 @@
+@import "tailwindcss";
+:root{--background:#f5fbf7;--ink:#263238}*{box-sizing:border-box}html{background:var(--background)}body{margin:0;min-width:320px;min-height:100vh;background:var(--background);color:var(--ink);font-family:Arial,sans-serif}button,a,input,textarea,select{font:inherit}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:4px solid rgba(77,184,242,.45);outline-offset:3px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}}

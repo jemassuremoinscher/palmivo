@@ -1,0 +1,1 @@
+import type {Metadata} from "next"; import "./globals.css"; export const metadata:Metadata={title:"Palmivo — Learn through real situations",description:"Interactive language learning for Russian and French."}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
